@@ -1,0 +1,292 @@
+Android sdk and jdk Configuration For Linux.
+
+ sudo -H gedit /etc/environment
+
+JAVA_HOME=/home/paras1/jdk1.8.0_202
+export ANDROID_HOME=/home/paras1/Android/Sdk
+export ANDROID_SDK_ROOT=/home/paras1/Android/Sdk
+
+https://askubuntu.com/questions/58814/how-do-i-add-environment-variables
+
+Android sdk and jdk Configuration For Mac.
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
+export ANDROID_HOME=/Users/admin/Library/Android/sdk
+export ANDROID_SDK_ROOT=/Users/admin/Library/Android/sdk
+export GRADLE_HOME=/Users/admin/Downloads/gradle-6.9.1/bin 
+
+brew install gradle
+
+Gmail
+
+sudo ionic cordova plugin add cordova-plugin-googleplus@6 --save --variable REVERSED_CLIENT_ID=com.googleusercontent.apps.653339509277-4h8rdvks5kp6i8crtn18v44uo4bjdcin --variable WEB_APPLICATION_CLIENT_ID=653339509277-4h8rdvks5kp6i8crtn18v44uo4bjdcin.apps.googleusercontent.com
+
+Facebook plugin 
+
+sudo ionic cordova plugin add cordova-plugin-facebook-connect --variable APP_ID="240106230783251" --variable APP_NAME="Cameron Academy" --save
+
+
+sudo ionic cordova plugin add cordova-plugin-facebook4@5 --variable APP_ID="240106230783251" --variable APP_NAME="Cameron Academy" --save
+
+To get package sdkman
+
+$ curl -s "https://get.sdkman.io" | bash
+
+To install gradle through sdkman
+
+sdk install gradle 7.2
+
+To get fix androidx-enabled
+
+https://stackoverflow.com/questions/63831903/im-getting-the-androidx-dependencies-error-with-android-useandroidx-enabled
+
+Google Login Plugin
+
+sudo cordova plugin add cordova-plugin-googleplus --save --variable REVERSED_CLIENT_ID=com.googleusercontent.apps.653339509277-gg3bp7mi4oq92v7rjdpd8t91u39mfk2v --variable WEB_APPLICATION_CLIENT_ID=653339509277-gg3bp7mi4oq92v7rjdpd8t91u39mfk2v.apps.googleusercontent.com --save
+
+To Enter Root
+sudo su
+
+To get SHA Key
+
+keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
+
+Terminal short cut keys
+
+New command: Shift + Command + N
+Move insertion point: Option + Move the pointer
+Move insertion point to start of line: Control + A
+Move insertion point to end of line: Control + E
+Move insertion point forward: Right Arrow
+Move insertion point backward: Left Arrow
+Move insertion point forward one word: Option + Right Arrow
+Move insertion point backward one word: Option + Left Arrow
+Delete to the start of the line: Control + U
+Delete to the end of the line: Control + K
+Delete a character: Delete
+Delete forward one character: Fn + Delete
+Delete forward one word: Option + D
+Delete backward one word: Control + W
+
+https://support.apple.com/en-in/guide/terminal/trmlshtcts/mac
+
+https://www.idownloadblog.com/2020/03/10/mac-keyboard-shortcuts-terminal/
+
+https://cocoapods.org/pods/FacebookSDK
+
+https://developers.facebook.com/docs/ios/getting-started
+
+https://github.com/cordova-plugin-facebook-connect/cordova-plugin-facebook-connect
+
+Firebase Notification
+
+sudo ionic cordova plugin add cordova-plugin-fcm-with-dependecy-updated@3
+npm install @ionic-native/fcm
+
+"ionic-plugin-deeplinks": {
+        "URL_SCHEME": "tulipioniccode",
+        "DEEPLINK_SCHEME": "http",
+        "DEEPLINK_HOST": "tulip.parastechnologies.in",
+        "ANDROID_PATH_PREFIX": "/",
+        "ANDROID_2_PATH_PREFIX": "/",
+        "ANDROID_3_PATH_PREFIX": "/",
+        "ANDROID_4_PATH_PREFIX": "/",
+        "ANDROID_5_PATH_PREFIX": "/",
+        "DEEPLINK_2_SCHEME": " ",
+        "DEEPLINK_2_HOST": " ",
+        "DEEPLINK_3_SCHEME": " ",
+        "DEEPLINK_3_HOST": " ",
+        "DEEPLINK_4_SCHEME": " ",
+        "DEEPLINK_4_HOST": " ",
+        "DEEPLINK_5_SCHEME": " ",
+        "DEEPLINK_5_HOST": " "
+      },
+      
+      Complete code
+
+ deepLink(){
+
+   this.deeplinks.route( {
+      // '/new-password': NewPasswordPage,
+      // '/detail': DetailPage,
+      // '/promoting': PromotingPage,
+      // '/conditiondetail': ConditiondetailPage,
+      // '/universal-links-test': Tab1Page,
+      // target: TabsPage,
+      // parent:Tab1Page
+    "/share_link.php":DetailPage,
+    '/universal-links-test': TabsPage,
+
+    //   '/about-us': AboutPage,
+    //  '/universal-links-test': AboutPage,
+    //  '/products/:productId': DetailPage
+}).subscribe(match => {
+        // match.$route - the route we matched, which is the matched entry from the arguments to route()
+        // match.$args - the args passed in the link
+        // match.$link - the full link data
+
+
+        console.log("deeplink response:-" + JSON.stringify(match))
+ 
+      var url=match.$link.url
+           var a=url.split('?');
+           console.log(a[1])
+
+       var getUrlParameter = function getUrlParameter(sParam, urlGetValue) {
+        var sPageURL = urlGetValue,
+            sURLVariables = sPageURL.split('&'),
+            sParameterName,
+            i;
+      
+        for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
+
+            if (sParameterName[0] === sParam) {
+                return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+            }
+        }
+    };
+
+    var shoes_id = getUrlParameter('shoes_id',a[1]);
+    var page_name = getUrlParameter('page_name', a[1]);
+
+    console.log("shoes_id"+shoes_id,"page_name"+ page_name)
+
+      if(page_name=="detail"){
+
+        this.Functions.redirect(['/detail', {
+          id: shoes_id
+    }]) 
+  }
+
+   else if(page_name=="condition"){
+      this.Functions.redirect(['/conditiondetail', {
+        id: shoes_id
+  }])      }
+
+  else if(page_name=="promoting"){
+   
+    this.Functions.redirect(['/promoting', {
+      id: shoes_id
+}])      }
+
+      else{
+        this.Functions.redirect(['/new-password'])
+      }
+
+      
+      }, nomatch => {
+             // nomatch.$link - the full link data
+        console.error('Got a deeplink that didn\'t match', nomatch);
+      });
+
+    // this.deeplinks.route({}).subscribe((match)=> {
+    //   alert('onMatch'+JSON.stringify(match))
+    // },(mismatch)=> {
+    //   alert('onMisMatch'+JSON.stringify(mismatch))
+    // })
+  }
+  
+  Web Notification
+
+npm i firebase@7.24.0 angularfire2 --save
+
+https://morioh.com/p/3b9800f0ab5e
+
+sudo ionic cordova run android --device
+
+onKey(e) {
+    if (e.keyCode == 13) {
+        let activeElement = <HTMLElement>document.activeElement;
+        activeElement && activeElement.blur && activeElement.blur();
+    }
+  }
+  
+  Forms and Validations
+
+
+  loginData: FormGroup
+
+this.loginData = this.formBuilder.group({
+      email: ['', [Validators.required, this.emailValidator.bind(this)]],
+      password: ['', Validators.required],
+      devicetoken: [''],
+      devicetype: ['']
+    })
+
+    var data = new FormData;
+    data.append('email', this.loginData.value.email);
+    data.append('password', this.loginData.value.password);
+    data.append('devicetype', devicetype);
+    data.append('devicetoken', "devicetoken");
+
+  this.http.post(this.api.login, data).subscribe((res: any) => {
+      console.log(res)
+      if (res.status == 1) {
+        this.getNotification();
+        localStorage.setItem('userData', JSON.stringify(res));
+        this.functions.presentToast(res.message,'dark');
+        this.router.navigate(['/home']);
+      } else {
+        this.functions.presentToast(res.message,'dark')
+      }
+    }, error => {
+      console.log(error)
+    });
+
+[formGroup]="loginData".   
+formControlName="email"
+
+<div *ngIf="!loginData.controls.email.valid && loginData.controls.email.dirty" class="error_main_div">
+            <div *ngIf="loginData.controls.email.hasError('invalidEmail') && loginData.controls.email.value" class="error_message">Invalid email !</div>
+            <div *ngIf="loginData.controls.email.hasError('required')" class="error_message"> This field is Mandatory !</div>
+            </div>
+
+[disabled]="!loginData.valid"  (click)="loginSubmit()"
+
+https://www.npmjs.com/package/ngx-file-drop
+
+https://ej2.syncfusion.com/angular/documentation/tab/drag-and-drop/
+
+https://openbase.com/js/ngx-audio-player-material/documentation
+
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_draganddrop2
+
+https://github.com/Epotignano/ng2-social-share/blob/master/ng2-social-share.js
+
+https://docs.agora.io/en/Interactive%20Broadcast/start_live_web_ng?platform=Web
+
+https://webdemo.agora.io/
+
+https://stackblitz.com/edit/angularx-social-login
+
+this.countries = Object.keys(this.jsondata);
+
+https://www.npmjs.com/package/ng2-adsense
+
+https://www.npmjs.com/package/cordova-plugin-facebook4/v/1.3.0-1
+
+https://purchase.cordova.fovea.cc/introduction
+
+https://enappd.com/blog/in-app-purchase-in-android-app-using-ionic-4/97/
+
+https://yaroslav-solonnikov.medium.com/create-reusable-ads-banners-with-angular-and-google-adsense-4d15b9433ca0
+
+https://support.google.com/adsense/thread/2248884/how-to-implement-ad-sense-with-angular-4-5-6-web-application-any-working-example?hl=en
+
+Android Dependencies.
+
+    implementation "com.google.android.gms:play-services-base:16.0+"
+    implementation "com.google.android.gms:play-services-ads:16.0+"
+    implementation "androidx.legacy:legacy-support-v4:1.0.0"
+//    implementation "com.facebook.android:facebook-android-sdk:5.5.2"
+    implementation "com.facebook.android:facebook-android-sdk:8.2+"
+
+    implementation "com.google.firebase:firebase-core:16.0.9"
+    implementation "com.google.firebase:firebase-messaging:18.0.0"
+    implementation "com.google.android.gms:play-services-auth:16.0+"
+    implementation "com.google.android.gms:play-services-identity:16.0+"
+    implementation "androidx.annotation:annotation:1.1.0"
+    implementation "com.android.billingclient:billing:3.0.3"
+    
+    https://docs.thunkable.com/in-app-purchase
