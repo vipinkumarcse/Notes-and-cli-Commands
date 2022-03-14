@@ -1,0 +1,702 @@
+Facebook Credentails
+
+User: info@cameronacademy.com
+Pass: Winwin2021!
+
+
+PC Hash Key
+b2:f4:6f:3f:49:95:52:ef:6a:06:1d:32:e9:c1:56:95:4d:5e:bb:05
+97:27:C5:48:07:AF:61:98:46:6E:10:C5:A6:72:9F:1E:DB:EB:D0:69
+Privacy Policy url
+https://www.freeprivacypolicy.com/privacy/view/dd3d23cd2c789dde9b27bc4e0620dfd1
+
+To Generate Hash Key
+
+keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
+
+
+
+Credentails Boome
+
+9917940466
+Pass@123
+
+
+
+
+4
+Terminal short cut keys
+
+New command: Shift + Command + N
+Move insertion point: Option + Move the pointer
+Move insertion point to start of line: Control + A
+Move insertion point to end of line: Control + E
+Move insertion point forward: Right Arrow
+Move insertion point backward: Left Arrow
+Move insertion point forward one word: Option + Right Arrow
+Move insertion point backward one word: Option + Left Arrow
+Delete to the start of the line: Control + U
+Delete to the end of the line: Control + K
+Delete a character: Delete
+Delete forward one character: Fn + Delete
+Delete forward one word: Option + D
+Delete backward one word: Control + W
+
+https://support.apple.com/en-in/guide/terminal/trmlshtcts/mac	
+
+#include "../Pods/Target Support Files/Pods-Cameron Academy/Pods-Cameron Academy.debug.xcconfig"
+#include "Pods/Target Support Files/Pods-Cameron Academy/Pods-Cameron Academy.release.xcconfig"
+
+$(PRODUCT_NAME:c99extidentifier)
+
+  <plugin name="cordova-plugin-googleplus" source="npm">
+        <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.653339509277-4h8rdvks5kp6i8crtn18v44uo4bjdcin" />
+        <variable name="WEB_APPLICATION_CLIENT_ID" value="653339509277-4h8rdvks5kp6i8crtn18v44uo4bjdcin.apps.googleusercontent.com" />
+    </plugin>
+
+  <plugin name="cordova-plugin-googleplus" source="npm">
+        <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.653339509277-4h8rdvks5kp6i8crtn18v44uo4bjdcin" />
+        <variable name="WEB_APPLICATION_CLIENT_ID" value="653339509277-4h8rdvks5kp6i8crtn18v44uo4bjdcin.apps.googleusercontent.com" />
+    </plugin>
+
+  <plugin name="cordova-plugin-facebook-connect" source="npm">
+        <variable name="APP_ID" value="240106230783251" />
+        <variable name="APP_NAME" value="Cameron Academy" />
+    </plugin>
+
+
+sudo cordova plugin remove  cordova-plugin-facebook-connect 
+
+sudo cordova plugin remove  cordova-plugin-facebook4
+
+
+sudo ionic cordova plugin rm cordova-plugin-googleplus
+
+sudo ionic cordova plugin add cordova-plugin-googleplus --save --variable REVERSED_CLIENT_ID=com.googleusercontent.apps.653339509277-4h8rdvks5kp6i8crtn18v44uo4bjdcin --variable WEB_APPLICATION_CLIENT_ID=653339509277-4h8rdvks5kp6i8crtn18v44uo4bjdcin.apps.googleusercontent.com
+
+sudo ionic cordova plugin add cordova-plugin-googleplus@6 --save --variable REVERSED_CLIENT_ID=com.googleusercontent.apps.653339509277-4h8rdvks5kp6i8crtn18v44uo4bjdcin --variable WEB_APPLICATION_CLIENT_ID=653339509277-4h8rdvks5kp6i8crtn18v44uo4bjdcin.apps.googleusercontent.com
+
+sudo ionic cordova plugin add cordova-plugin-googleplus@6 --save --variable REVERSED_CLIENT_ID=com.googleusercontent.apps.118052163678-0b27455c78nbvk58no4do2efr38pbna3 --variable WEB_APPLICATION_CLIENT_ID=118052163678-0b27455c78nbvk58no4do2efr38pbna3.apps.googleusercontent.com
+
+sudo ionic cordova plugin add cordova-plugin-googleplus@6 --save --variable REVERSED_CLIENT_ID=118052163678-sl9ld0vkpa5ci2mb87spdr045mccpe3n --variable WEB_APPLICATION_CLIENT_ID=118052163678-puftd1qrlhqe1oqbbpvk9i9g5hhni731.apps.googleusercontent.com
+
+sudo ionic cordova plugin add cordova-plugin-googleplus@6 --save --variable REVERSED_CLIENT_ID=com.googleusercontent.apps.118052163678-8fbqiqev064tte6lo93c3sg11m6h7e2k --variable WEB_APPLICATION_CLIENT_ID=118052163678-8fbqiqev064tte6lo93c3sg11m6h7e2k.apps.googleusercontent.com
+
+sudo ionic cordova plugin add cordova-plugin-googleplus@6 --save --variable REVERSED_CLIENT_ID=com.googleusercontent.apps.118052163678-no284jjfuq0ok57jq4ich4o66ff74jdn --variable WEB_APPLICATION_CLIENT_ID=
+118052163678-no284jjfuq0ok57jq4ich4o66ff74jdn.apps.googleusercontent.com
+
+
+sudo cordova plugin add cordova-plugin-facebook4 --variable FACEBOOK_APP_ID="240106230783251" --variable FACEBOOK_DISPLAY_NAME="Cameron Academy" --save
+
+sudo cordova plugin add cordova-plugin-facebook4 --variable APP_ID="240106230783251" --variable APP_NAME="Cameron Academy" --save
+
+sudo cordova plugin add cordova-plugin-facebook-connect --save --variable APP_ID="240106230783251" --variable APP_NAME="Cameron Academy" --variable OTHER_APP_SCHEMES="fb987654321,fb876543210,fb765432109"
+
+sudo cordova plugin add cordova-plugin-facebook-connect --save --variable APP_ID="279370847562885" --variable APP_NAME="Cameron Academy" --variable OTHER_APP_SCHEMES="fb987654321,fb876543210,fb765432109"
+
+sudo ionic cordova plugin add cordova-plugin-googleplus@6  --save --variable REVERSED_CLIENT_ID=com.googleusercontent.apps.118052163678-dd5a55tv8cdf62s72g788vn5259bmv52  --variable WEB_APPLICATION_CLIENT_ID=118052163678-dd5a55tv8cdf62s72g788vn5259bmv52.apps.googleusercontent.com
+
+sudo cordova plugin add cordova-plugin-facebook-connect --variable APP_ID="240106230783251" --variable APP_NAME="Cameron Academy" --save
+
+sudo cordova plugin add cordova-plugin-facebook4@6.2.0 --variable FACEBOOK_APP_ID="240106230783251" --variable FACEBOOK_DISPLAY_NAME="Cameron Academy" --save
+
+sudo ionic cordova plugin add cordova-plugin-fcm-with-dependecy-updated@3
+npm install @ionic-native/fcm
+
+sudo ionic cordova plugin add ionic-plugin-deeplinks
+--variable URL_SCHEME=Cameron Academy --variable DEEPLINK_SCHEME=https --variable DEEPLINK_HOST=example.com
+--variable ANDROID_PATH_PREFIX=/
+
+sudo ionic cordova plugin add ionic-plugin-deeplinks --variable URL_SCHEME="io.cameron.com" --variable DEEPLINK_SCHEME=https --variable DEEPLINK_HOST="https://shakti.parastechnologies.in" --variable ANDROID_PATH_PREFIX=/
+sudo ionic cordova plugin add ionic-plugin-deeplinks --variable URL_SCHEME="io.cameron.com" --variable DEEPLINK_SCHEME=https --variable DEEPLINK_HOST="https://web.com" --variable ANDROID_PATH_PREFIX=/
+sudo ionic cordova plugin add ionic-plugin-deeplinks --variable URL_SCHEME="cameron" --variable DEEPLINK_SCHEME=https --variable DEEPLINK_HOST="https://shakti.parastechnologies.in" --variable ANDROID_PATH_PREFIX=/
+
+sudo ionic cordova plugin add ionic-plugin-deeplinks --variable URL_SCHEME="Cameron" --variable DEEPLINK_SCHEME=http --variable DEEPLINK_HOST="shakti.parastechnologies.in" --variable ANDROID_PATH_PREFIX=/
+
+https://shakti.parastechnologies.in/care/Api/Academy/changePassword/?activation_code=ed875b261a4fdf3c927fa7b9e&user_id=MzM=.
+
+social_id, devicetoken, devicetype, email, name
+
+
+<div class="modal_btns ion-float-right">
+  <button class="btn_main1 btn_main ">Cancel</button> 
+  <button (click)="done()" class="btn_main">Done</button> 
+</div>
+
+https://www.web.com/?id=com.Care
+
+"ionic-plugin-deeplinks": {
+        "URL_SCHEME": "tulipioniccode",
+        "DEEPLINK_SCHEME": "http",
+        "DEEPLINK_HOST": "tulip.parastechnologies.in",
+        "ANDROID_PATH_PREFIX": "/",
+        "ANDROID_2_PATH_PREFIX": "/",
+        "ANDROID_3_PATH_PREFIX": "/",
+        "ANDROID_4_PATH_PREFIX": "/",
+        "ANDROID_5_PATH_PREFIX": "/",
+        "DEEPLINK_2_SCHEME": " ",
+        "DEEPLINK_2_HOST": " ",
+        "DEEPLINK_3_SCHEME": " ",
+        "DEEPLINK_3_HOST": " ",
+        "DEEPLINK_4_SCHEME": " ",
+        "DEEPLINK_4_HOST": " ",
+        "DEEPLINK_5_SCHEME": " ",
+        "DEEPLINK_5_HOST": " "
+      },
+
+
+
+ 
+Complete Code
+
+deepLink(){
+
+   this.deeplinks.route( {
+      // '/new-password': NewPasswordPage,
+      // '/detail': DetailPage,
+      // '/promoting': PromotingPage,
+      // '/conditiondetail': ConditiondetailPage,
+      // '/universal-links-test': Tab1Page,
+      // target: TabsPage,
+      // parent:Tab1Page
+    "/share_link.php":DetailPage,
+    '/universal-links-test': TabsPage,
+
+    //   '/about-us': AboutPage,
+    //  '/universal-links-test': AboutPage,
+    //  '/products/:productId': DetailPage
+}).subscribe(match => {
+        // match.$route - the route we matched, which is the matched entry from the arguments to route()
+        // match.$args - the args passed in the link
+        // match.$link - the full link data
+
+
+        console.log("deeplink response:-" + JSON.stringify(match))
+ 
+      var url=match.$link.url
+           var a=url.split('?');
+           console.log(a[1])
+
+       var getUrlParameter = function getUrlParameter(sParam, urlGetValue) {
+        var sPageURL = urlGetValue,
+            sURLVariables = sPageURL.split('&'),
+            sParameterName,
+            i;
+      
+        for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
+
+            if (sParameterName[0] === sParam) {
+                return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+            }
+        }
+    };
+
+    var shoes_id = getUrlParameter('shoes_id',a[1]);
+    var page_name = getUrlParameter('page_name', a[1]);
+
+    console.log("shoes_id"+shoes_id,"page_name"+ page_name)
+
+      if(page_name=="detail"){
+
+        this.Functions.redirect(['/detail', {
+          id: shoes_id
+    }]) 
+  }
+
+   else if(page_name=="condition"){
+      this.Functions.redirect(['/conditiondetail', {
+        id: shoes_id
+  }])      }
+
+  else if(page_name=="promoting"){
+   
+    this.Functions.redirect(['/promoting', {
+      id: shoes_id
+}])      }
+
+      else{
+        this.Functions.redirect(['/new-password'])
+      }
+
+      
+      }, nomatch => {
+             // nomatch.$link - the full link data
+        console.error('Got a deeplink that didn\'t match', nomatch);
+      });
+
+    // this.deeplinks.route({}).subscribe((match)=> {
+    //   alert('onMatch'+JSON.stringify(match))
+    // },(mismatch)=> {
+    //   alert('onMisMatch'+JSON.stringify(mismatch))
+    // })
+  }
+
+
+/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home
+export PATH=$JAVA_HOME/bin:$PATH
+
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home
+
+
+Project Status (06 Oct 2021)
+
+Project Name: Cameron Acedamy 
+
+-fixed profile issue.
+-worked on notification token with anu mam.
+-try to fix slider issue.
+
+Thanks
+
+sudo ionic cordova run android --device
+
+(window:keydown)="onKey($event)" 
+
+onKey(e) {
+    if (e.keyCode == 13) {
+        let activeElement = <HTMLElement>document.activeElement;
+        activeElement && activeElement.blur && activeElement.blur();
+    }
+  }
+
+
+
+
+Forms and Validations
+
+
+  loginData: FormGroup
+
+this.loginData = this.formBuilder.group({
+      email: ['', [Validators.required, this.emailValidator.bind(this)]],
+      password: ['', Validators.required],
+      devicetoken: [''],
+      devicetype: ['']
+    })
+
+    var data = new FormData;
+    data.append('email', this.loginData.value.email);
+    data.append('password', this.loginData.value.password);
+    data.append('devicetype', devicetype);
+    data.append('devicetoken', "devicetoken");
+
+  this.http.post(this.api.login, data).subscribe((res: any) => {
+      console.log(res)
+      if (res.status == 1) {
+        this.getNotification();
+        localStorage.setItem('userData', JSON.stringify(res));
+        this.functions.presentToast(res.message,'dark');
+        this.router.navigate(['/home']);
+      } else {
+        this.functions.presentToast(res.message,'dark')
+      }
+    }, error => {
+      console.log(error)
+    });
+
+[formGroup]="loginData" 
+formControlName="email"
+
+<div *ngIf="!loginData.controls.email.valid && loginData.controls.email.dirty" class="error_main_div">
+            <div *ngIf="loginData.controls.email.hasError('invalidEmail') && loginData.controls.email.value" class="error_message">Invalid email !</div>
+            <div *ngIf="loginData.controls.email.hasError('required')" class="error_message"> This field is Mandatory !</div>
+            </div>
+
+[disabled]="!loginData.valid"  (click)="loginSubmit()"
+(ngSubmit)="onSubmit()"
+
+Image Upload
+
+<input type="file" size="60" id="imageUpload" accept=".png, .jpg, .jpeg"
+                                                    #fileInput (change)="selectFile($event)">
+
+type="file" (change)="profilePic($event)" accept=".png, .jpg, .jpeg"
+
+ selectFile(event) {
+    this.imageChangedEvent = event;
+    $("#exampleModalCenter5").modal('show')
+  }
+
+  async profilePic(e:any) {
+    const file = e.target.files[0];
+    if (file.type == 'image/png' || file.type == 'image/jpg' || file.type == 'image/jpeg') {
+      const reader = new FileReader();
+      reader.onload = (event: any) => {
+        this.src = event.target.result;
+      };
+      reader.readAsDataURL(e.target.files[0]);
+      this.File = file;
+      var fd=new FormData
+      fd.append('file_name',this.File)
+      this.service.uploadFile(fd).subscribe((res:any)=>{
+        if (res['success'] == 1) {
+          this.src =`${res.base_url}${res.file_name}`
+          localStorage.setItem("B-in-Touch", JSON.stringify(res["user"]));
+           this.userData = JSON.parse(localStorage.getItem('B-in-Touch') || '{}')
+          this.event.publishSomeData("editData")
+        }
+        else {
+          this.common.error(res.msg);
+        }
+      })
+    } else {
+      this.common.error('Selected file is not image.');
+    }
+  }
+
+
+(keyup.enter)="somefunction()"
+
+
+Facebook is not working.
+check backdrop in case instagram.
+uber is not working.
+map location icon is not working.
+ messanger is not working.
+on click email backend error generated.
+
+
+
+
+import { DomSanitizer, SafeResourceUrl} from '@angular/platform-browser';
+private sanitizer: DomSanitizer
+this.sanitizer.bypassSecurityTrustResourceUrl(link);
+
+https://mail.google.com/mail/?view=cm&fs=1&to=someone@example.com&su=SUBJECT&body=BODY&bcc=someone.else@example.com
+
+mappy://https://fr.mappy.com/plan
+
+Emergency Bug List
+
+1. change cursor on pointing on emergency
+2. thick text and rectangle thin button need.
+3.change text of modal (Done).
+4. check delete list case and check editing option.
+5.. cancel is not working of popup (Done).
+7. need cancel or editing in same modal
+8. need to give option for application name. not user name. 
+9. cross check of rectangle photo instead of round photo 
+10 some information is missing. dob,age,share,location
+11. add bullet on listing.
+
+
+Smart Object Bug List
+
+
+Front end bug
+
+1) Action button: How it works on desktop (Done)
+2) Auto verify when last digit is filled (Done)
+3) Needs to be automatically setup according to what company has registered (Working)
+4) Ability to add a comma in introduction text (Done)
+5) Action buttons missing in invitations (Working)
+6) Notification pop up needs to be adjusted (Done)
+7) Add action button: Add images (Done)
+8) Please check the check list (Done)
+9) Auto verify when last digit is filled (Done)
+10) Share on Facebook needs image previews or else its usless function (need to discuss)
+11) Exit pop up during post of assigment (Done)
+12) Ability to delete an image during post of assigment (Done)
+13) Unable to invite company to an assignment (Working)
+14) Translation missing (Backend issue)
+15) When user press "Use" It should automaticlly upload the image (Working)
+
+
+
+Project Status (26 November 2021)
+
+Hjelpsome (8:30 Hours)
+
+Ability to add a comma in introduction text (Fixed).
+Add custom outline color for assignments (Fixed).
+Active assignments of private user (pending).
+
+
+
+Thanks.
+
+
+6194931667e67c753a6be341
+
+
+
+Client Links not working
+
+1. Messenger (works well in the mobile app profile preview page, but when clicked in the web browser profile page it opens Facebook user)  (Done. Please Recheck)
+2. Viber ( showing «request unavailable »)
+3.  LinkedIn (when tested in mobile profile preview page it works, but when tested from web browser profile page it opens only the LinkedIn app home page.)
+4. Tiktok (works when tested in mobile app preview page, but in the browser page it is opening a B in Touch login page)
+5. YouTube (works when tested in mobile app preview page, but in the browser page it is opening page not available in YouTube app)
+6. Vimeo (when tested in mobile profile preview page it works, but when tested from web browser profile page it opens only the Vimeo app home page.)
+7. PayPal (when tested in mobile profile preview page it works, but when tested from web browser profile page it opens another person profile « Thomas Chau »)
+8.Google Drive (when tested in mobile profile preview page or chrome it works, but when tested from safari web browser profile page it shows address invalid )
+9.Quora (when tested in mobile profile preview page or chrome it works, but when tested from safari web browser profile page it shows address invalid )
+10. Trip Advisor (when tested in mobile profile preview page or chrome it works, but when tested from safari web browser profile page it shows address invalid)
+11. Indeed (when tested in mobile profile preview page or chrome it works, but when tested from safari web browser profile page it shows address invalid)
+12. Uber (opening the app without the address in destination)
+13. Message ( working well when tested in mobile app profile preview page, but when tested in safari or chrome,it is not putting the phone number correctly in the receiver field )
+14. Notes ( in iPhone it opens notes app without showing the text, in Android it opens an empty web page)
+15. Bottim (it’s only opening a website)
+16. Spotify (opens the app but showing error)
+17. Wifi (working well when tested in mobile app preview page but in web browsers it is opening a QR code)
+
+18. The 3 medical category icons: they should simply open the uploaded documents in the web browser
+
+19. For all other apps that you couldn’t test because you don’t have in India, just allow the user to put any URL and it should open correctly in browser (example: Doctorlib, Lydia, Paylib, renren, Weibo, Qzone, QQ, dribbble, trustpilot)
+
+
+
+Link need to work.
+
+snapchat
+whatsapp
+uber
+teams
+
+kik
+viber
+reddit
+
+opening new tabs.
+
+wifi need to join network directly not qr code. (Done)
+
+
+Cameron 
+
+Build an exam - 
+1) you need to complete the previous exam first 
+This popup needs to be added before selecting any options on build an exam not after that (Done)
+2)When user opens the timer than the default time should show from zero not from the mid (Done)
+3) Remove the filter from build an exam screen (Done)
+
+Setting 
+4) add edit state option in edit profile section 
+
+RSS Feed 
+5) the RSS feed screen is taking way too long to load (Done)
+
+Renew License 
+6) Remove "suite" field from the renew license form (Done)
+7) Remove the notification once the user submit the form (Done)
+8) Fix the "i agree" icon when user opens the renew license form (Done)
+ 
+Flashcard 
+9) This screen is taking time to load (Done)
+
+
+Bottom Up Bug List
+
+
+1. Public group notification not coming on web. When ever your friends login or open the app you will get notification that your friend  is in the room. Not coming on apps when web friend goes in the app (Backend Issue).
+2.  Group call mute not working (Need to Retest)
+3. Call getting connected but UI is not good/Designing issue (Need to Retest)
+4. Admin for web disconnected the call but it did not end at the app side both Android and iOS (Done)
+5. Called from Android  to web and iOS (Android camera showing black screen in iOS and web) (Android Bug)
+ 6. Web to iOS and web to Android call: iOS end the call but call did not disconnect on web , same need to check with Android (Done). 
+7.  iOS called Android and web, Web disconnected the call but iOS and Android user can still see the web user (Done)
+
+
+Live Streaming
+
+When I see on web my user goes live using Android and iOS device time is straightaway coming 30 minutes. 
+
+Home SCreen: Friend is live now (count is not increasing) but when user goes in and then comes out on Home screen count increases
+
+Friend live notification on web is not taking user to the live streaming screen
+
+Live chat not working: cannot send messages and does not receive messages from Android or iOS
+
+Share icon not working in Web. Please check iOS and Android
+
+Need to check if Add friend is working when user(viewer) shares live link to someother user and that user is not a friend of the live user.
+
+
+One on One chat notification
+
+Says Undefined and not shown when I am using Bottoms UP
+Notification will take user to the direct chat screen
+Latest messages should be on top of the list
+Web getting direct message notification but messages are not shown on web (chatlist. Chek by refreshing pages.
+
+
+Messages are not going from Web to Android or iOS
+Camera icon not working to make video call to friend from chat screen
+
+
+Group chat
+
+Group call icon is not working
+
+
+
+uber://?client_id=XThZpPIzIIne69KIjpnF_Tg9mpdoakmw&action=setPickup&pickup[latitude]= 30.7110&pickup[longitude]= 76.6858&pickup[nickname]=UberHQ&pickup[formatted_address]=Phase 8B, Industrial Area, Sector 74 Plot Number D 185, Office Number 15, Ground Floor, Sahibzada Ajit Singh Nagar, Punjab 160055&dropoff[latitude]= 30.7328&dropoff[longitude]= 76.6822&dropoff[nickname]=mytag&dropoff[formatted_address]=Sco 51-52, Nh-21, Sector-118, Chandigarh-Kharar Road, Mohali Chandigarh-160059&product_id=a1111c8c-c720-46c3-8534-2fcdd730040d&link_text=View%20team%20roster&partner_deeplink=partner%3A%2F%2Fteam%2F9383
+
+
+viber 
+Comment: Done. Please Recheck. It working fine in android and ios website. If app is not available. then need to download.
+
+messages 
+Comment : 
+notes
+uber
+
+1640763502600.jpg
+
+
+
+
+
+https://m.uber.com/ul/?action=setPickup&client_id=XThZpPIzIIne69KIjpnF_Tg9mpdoakmw&pickup[formatted_address]=PARAS%20TECHNOLOGIES%2C%20Industrial%20Area%2C%20Sector%2074%2C%20Sahibzada%20Ajit%20Singh%20Nagar%2C%20Punjab%2C%20India&pickup[latitude]=30.710990&pickup[longitude]=76.685805&dropoff[formatted_address]=VR%20Punjab%20Mall%20Road%2C%20Sector%20117%2C%20Sahibzada%20Ajit%20Singh%20Nagar%2C%20Punjab%2C%20India&dropoff[latitude]=30.738948&dropoff[longitude]=76.678771
+
+
+https://m.uber.com/looking?drop%5B0%5D=%7B%22id%22%3A%22ChIJUdOiBfPsDzkRxErU6-XW20Y%22%2C%22addressLine1%22%3A%22Cloudnine%20Hospital%20-%20Chandigarh%22%2C%22addressLine2%22%3A%22Plot%20no.%2048%2C%202%2C%20Industrial%20Area%20Phase%20II%2C%20Chandigarh%22%2C%22provider%22%3A%22google_places%22%2C%22locale%22%3A%22en%22%2C%22latitude%22%3A30.70041%2C%22longitude%22%3A76.7875933%7D&pickup=%7B%22id%22%3A%22ChIJb4qTRgaDGjkR_DQ_657zZQ0%22%2C%22addressLine1%22%3A%2294%2C%20near%20Vishkarma%20Mandir%22%2C%22addressLine2%22%3A%22Vishwakarma%20Chowk%2C%20Sant%20Pura%2C%20Industrial%20Area-%20A%2C%20Ludhiana%2C%20Punjab%22%2C%22provider%22%3A%22google_places%22%2C%22locale%22%3A%22en-GB%22%2C%22latitude%22%3A30.9009512%2C%22longitude%22%3A75.85727600000001%7D&vehicle=a4770b75-bd1d-4c4f-8315-afef635b8b28
+
+
+https://m.uber.com/looking?drop%5B0%5D=%7B%22id%22%3A%22ChIJUdOiBfPsDzkRxErU6-XW20Y%22%2C%22addressLine1%22%3A%22Cloudnine%20Hospital%20-%20Chandigarh%22%2C%22addressLine2%22%3A%22Plot%20no.%2048%2C%202%2C%20Industrial%20Area%20Phase%20II%2C%20Chandigarh%22%2C%22provider%22%3A%22google_places%22%2C%22locale%22%3A%22en%22%2C%22latitude%22%3A30.70041%2C%22longitude%22%3A76.7875933%7D&pickup=%7B%22id%22%3A%22ChIJb4qTRgaDGjkR_DQ_657zZQ0%22%2C%22addressLine1%22%3A%2294%2C%20near%20Vishkarma%20Mandir%22%2C%22addressLine2%22%3A%22Vishwakarma%20Chowk%2C%20Sant%20Pura%2C%20Industrial%20Area-%20A%2C%20Ludhiana%2C%20Punjab%22%2C%22provider%22%3A%22google_places%22%2C%22locale%22%3A%22en-GB%22%2C%22latitude%22%3A30.9009512%2C%22longitude%22%3A75.85727600000001%7D&vehicle=a4770b75-bd1d-4c4f-8315-afef635b8b28
+
+
+https://m.uber.com/looking?drop%5B0%5D=%7B%22id%22%3A%22ChIJUdOiBfPsDzkRxErU6-XW20Y%22%2C%22addressLine1%22%3A%22Cloudnine%20Hospital%20-%20Chandigarh%22%2C%22addressLine2%22%3A%22Plot%20no.%2048%2C%202%2C%20Industrial%20Area%20Phase%20II%2C%20Chandigarh%22%2C%22provider%22%3A%22google_places%22%2C%22locale%22%3A%22en%22%2C%22latitude%22%3A30.70041%2C%22longitude%22%3A76.7875933%7D&pickup=%7B%22id%22%3A%22ChIJA9PbKc_vDzkRJnOMmggcxM0%22%2C%22addressLine1%22%3A%22VR%20Punjab%22%2C%22addressLine2%22%3A%22NH-21%2C%20Chandigarh%20Kharar%2C%20Chandigarh%20Rd%2C%20Sector%20118%2C%20Sahibzada%20Ajit%20Singh%20Nagar%2C%20Punjab%22%2C%22provider%22%3A%22google_places%22%2C%22locale%22%3A%22en-GB%22%2C%22latitude%22%3A30.7389237%2C%22longitude%22%3A76.6788299%7D&vehicle=40269682-90dc-4d18-8c38-5b4035e35296
+
+
+Javascript Google ads code
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5420344370990184" crossorigin="anonymous"></script>
+    <!-- Homepage Leaderboard -->
+    <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-5420344370990184" data-ad-slot="8033663457"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+
+7319692404
+
+
+InAppPurchase
+
+const Video_key = 'product id'
+const subscription_key = 'product id'
+
+use buy function
+
+
+id="io.cameron.com" 
+
+
+Google Ads
+
+flash card slides
+exam slides
+
+sudo ionic cordova plugin add cordova-plugin-admobpro --save --variable PLAY_SERVICES_VERSION=20.4.0 --variable ADMOB_ANDROID_APP_ID="ca-pub-5420344370990184" --variable ADMOB_IOS_APP_ID="ca-pub-5420344370990184"
+sudo npm install --save @ionic-native/admob-pro 
+
+sudo ionic cordova plugin add cordova-plugin-admob --save --variable PLAY_SERVICES_VERSION=20.4.0 --variable ADMOB_ANDROID_APP_ID="ca-pub-5420344370990184" --variable ADMOB_IOS_APP_ID="ca-pub-5420344370990184"
+sudo npm install --save @ionic-native/admob 
+
+sudo ionic cordova plugin add cordova-plugin-admob-free --save --variable ADMOB_APP_ID="ca-app-pub-2387490687776151~80XXXXXXX9"
+sudo npm install --save @ionic-native/admob-free
+
+sudo ionic cordova plugin add cordova-plugin-admob-free --save --variable PLAY_SERVICES_VERSION=11.8.0 --variable ADMOB_APP_ID="ca-pub-5420344370990184"
+sudo npm install --save @ionic-native/admob-free
+
+sudo ionic cordova plugin add cordova-plugin-admobpro --save --variable PLAY_SERVICES_VERSION=20.4.0 --variable ADMOB_ANDROID_APP_ID="ca-app-pub-2387490687776151~80XXXXXXX9" --variable ADMOB_IOS_APP_ID="ca-app-pub-2387490687776151~80XXXXXXX9"
+sudo npm install --save @ionic-native/admob-pro
+
+
+
+Hjelpsom
+
+
+
+git update-ref -d refs/remotes/origin/dev/boome/rajni
+
+
+
+Boo-me  Project
+
+Modules: Talent
+
+1. Your task Module
+2. Message Module
+3. Booking History Module
+4. Review and Rating Module
+5. Notification Module
+6. Setting Module (Done)
+7. My profile Module (Editing) (Done)
+8. Privacy Module (Done)
+9. Signup Module
+
+
+ Your task Module
+Booking History Module
+Review and Rating Module
+
+Work Plan (7 Feb 2022)
+
+Task List.
+
+1. Search Job Implementation (Done)
+2. Date time transformation (Done)
+3. Accept and Reject task (Done)
+4.  Booking History (upcoming, on going and completed)
+5.  Booking Details
+6.  Review and Rating
+7. Give Rate
+8. Notification section
+9. Messaging Section
+
+Bug Report
+
+My Note
+
+
+
+
+Project Status (11 Feb 2022 8:30 Hours)
+
+Task Report 
+
+Cameron Academy (4:30 Hours)
+
+1. Change project configuration for firebase and fix google login for ios (Done) .
+2. Change project configuration for facebook login and try to fix facebook sign in.
+3. Change project configuration for google ads sense.
+4. Fix google ads plugin bug.
+5. InApp Purchase Implementation for android and Ios.
+
+
+Boome (4:00 Hours) 
+
+
+Task Report
+
+1. Payment section
+2. Profile editing bugs
+
+
+
+1. Booking details of completed (Done)
+2. Booking details of upcoming (Done)
+3. Booking details of ongoing (Done)
+4. Completed Job Implementation (Done)
+5. Notification on Talent Implementation (Done)
+6. Rating and Review (Done)
+
+
+1. Create app on firebase and configure the setting.
+2. fix bug google login for facebook for ios
+3. Try to fix bug google login for android. 
+4. create app on facebook and configure the setting.
+5. try to fix facebook plugin bugs but facing issue on configuation.
+
+Thanks 
+
+
+Project Status 
+
+Hjelpsom
